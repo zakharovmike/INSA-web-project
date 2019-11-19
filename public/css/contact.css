@@ -1,0 +1,157 @@
+.title
+{
+	text-align: center;
+	font-size:1.5em;
+	font-weight: bold;
+}
+
+.conteneur1
+{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content: center;
+	align-content: space-around;
+}
+
+.form__contact
+{
+	width: 40%;
+	height: auto;
+	border-radius: 10px;
+	background-color: white;
+	box-shadow: 5px 5px 5px #ccc;
+	padding:10px;
+	margin-right: 5%;
+	margin-bottom: 4%;
+}
+
+.form__contact p
+{
+	margin-bottom: 4%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width:90%;
+}
+
+.form {
+  	margin: 0 auto;
+  	width: 80%;
+ 	padding: 1em;
+ 	border-radius: 1em;
+ 	display:block;
+}
+
+input, textarea {
+  	width: 90%;
+  	display: block;
+  	margin-left:auto;
+  	margin-right:auto;
+  	border: 1px solid #999;
+  	margin-bottom: 2%;
+  	background-color:#f2f2f2;
+}
+
+textarea {
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
+  	vertical-align: top;
+  	height: 10em;
+}
+
+input:focus, textarea:focus {
+ 	 border-color: #000;
+}
+
+.button {
+	margin-top:2%;
+}
+
+.send-button {
+  	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+.message_sent, .missing_info
+{
+	display: none;
+	width:80%;
+	margin-left:auto;
+	margin-right: auto;
+	text-align: center;
+	border:1px solid #333333;
+	background-color: #f2f2f2;
+	border-radius:5px;
+	margin-top:3%;
+	padding:3%;
+}
+
+.conteneur2
+{
+	max-width: 400px;
+	display: flex;
+	/*flex-wrap:wrap;*/
+	/*justify-content: space-around;*/
+	align-content: space-around;
+	flex-direction: column;
+}
+
+.contact__eleve, .contact__univ
+{
+	width:98%;
+	height:auto;
+	border-radius: 10px;
+	background-color: white;
+	box-shadow: 5px 5px 5px #ccc;
+	padding: 4%;
+}
+
+.contact__eleve
+{
+	margin-bottom: 10%;
+}
+
+.adresse
+{
+	text-align:center;
+}
+
+/*
+
+=============================== RESPONSIVE =====================================
+
+*/
+
+@media (max-width: 900px) {
+
+	.conteneur1 {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.form__contact {
+		width: 462px;
+		padding:10px;
+		margin-right: 0;
+		margin-bottom: 10%;
+	}
+
+	.conteneur2 {
+		max-width: 80%;
+		align-items: center;
+		margin-bottom: 20px;
+		text-align: left;
+		flex-wrap:wrap;
+		justify-content: space-around;
+
+	}
+
+}
+
+@media (max-width: 600px) {
+	.form__contact {
+		width: 80%;
+	}
+}

@@ -1,0 +1,143 @@
+h1
+{
+	color:#333333;
+	font-size:3em;
+	font-weight: bold;
+	text-align: center;
+	padding: 0 2%;
+}
+
+h2
+{
+	color:#333333;
+	font-size: 2em;
+	font-weight: bold;
+	text-align: center;
+}
+
+.pro-intro
+{
+	border-radius: 5px;
+	display: block;
+	margin-left:auto;
+	margin-right: auto;
+	padding: 2% 4%;
+	width: 80%;
+	margin-bottom: 3%;
+	background-color:white;
+	box-shadow: 5px 5px 5px #ccc;
+}
+
+.conteneur
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.steps
+{
+	border-radius: 10px;
+	margin-right: 5%;
+	padding: 4px;
+	width: 50%;
+	background-color:white;
+	box-shadow: 5px 5px 5px #ccc;
+}
+
+.space
+{
+	margin-bottom: 2%;
+}
+
+.pro-accordion
+{
+	width:80%;
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.accordion__button
+{
+	border:1px solid #333333;
+}
+
+.dossier
+{
+	width: 40%;
+	padding:2%;
+	background-color:white;
+	box-shadow: 5px 5px 5px #ccc;
+	border-radius:5px;
+}
+
+.dossier .title
+{
+	font-size: 1.5em;
+	font-weight: bold;
+	text-align: center;
+}
+
+.dossier .conditions,.dossier .elements
+{
+	margin-top:2%;
+	width:80%;
+	border:1px solid #333333;
+	border-radius: 10px;
+	padding: 2%;
+	background-color: #f2f2f2;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*
+
+=============================== RESPONSIVE =====================================
+
+*/
+
+@media screen and (max-width: 800px) {
+	.conteneur
+	{
+		display:block;
+	}
+
+	.steps
+	{
+		margin-top:6%;
+		width: 80%;
+		display: block;
+		margin-left:auto;
+		margin-right: auto;
+		padding-bottom: 5%;
+	}
+
+	.dossier
+	{
+		padding-top: 4%;
+		padding-bottom: 5%;
+		margin-top:6%;
+		width: 80%;
+		display: block;
+		margin-left:auto;
+		margin-right: auto;
+	}
+
+	.dossier .title
+	{
+		margin-bottom: 4%;
+	}
+
+	.dossier .conditions
+	{
+		margin-bottom: 4%;
+	}
+
+	.dossier .conditions,.dossier .elements
+	{
+		padding:10px;
+	}
+
+}

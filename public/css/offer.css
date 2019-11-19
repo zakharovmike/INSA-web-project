@@ -1,0 +1,341 @@
+.offer-wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.offer-wrapper > * {
+	font-family: 'Roboto', sans-serif;
+}
+
+.offer-title {
+	font-size: 42pt;
+	font-weight: 700;
+	margin: 0;
+	margin-top: 40px;
+	max-width: 72%;
+	text-align: center;
+	color: #333333;
+}
+
+.offer-subtitle {
+	font-size: 18pt;
+	font-weight: 400;
+	margin: 0;
+	margin-top: 40px;
+	max-width: 72%;
+	text-align: center;
+	color: #333333;
+}
+
+.offer-selectors {
+	flex-direction: row;
+	margin-top: 20px;
+}
+
+.offer-selectors > select {
+	font-size: 21px;
+	text-align: center;
+}
+
+.offer-selectors > select:first-of-type {
+
+}
+
+.offer-selectors > select:nth-of-type(2n) {
+	margin-left: 40px;
+}
+
+.countries > ul {
+	list-style: none;
+	padding: 0;
+	margin-top: 40px;
+}
+
+.offer-country-card {
+	display: flex;
+	flex-direction: row;
+	min-height: 160px;
+	max-width: 800px;
+	background-color: #FDFDFD;
+	margin-bottom: 30px;
+	filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.15));
+	cursor: pointer;
+}
+
+.offer-info {
+	display: flex;
+	flex-direction: column;
+	padding: 40px;
+	text-align: center;
+	justify-content: center;
+}
+
+.offer-country-name {
+	margin: 0;
+	margin-bottom: 20px;
+	font-size: 36pt;
+	font-weight: 500;
+	color: #333333;
+}
+
+.offer-available-unis {
+	margin: 0;
+	white-space: nowrap;
+	font-size: 18px;
+	font-weight: 500;
+	color: #AAAAAA;
+}
+
+.offer-country-card > span {
+	border: 1px solid #AAAAAA;
+	height: 80%;
+	height: 100px;
+	align-self: center;
+}
+
+.offer-country-card > .offer-country-description {
+	font-size: 16px;
+	font-weight: 500;
+	color: #333333;
+	align-self: center;
+	margin: 32px 40px;
+	text-align: left;
+}
+
+.selection-nav {
+	flex-direction: column;
+	align-items: center;
+	margin: 40px 0;
+}
+
+.selection-nav .return-button {
+	font-size: 20px;
+	font-weight: 500;
+	color: #AAAAAA;
+	margin-bottom: 12px;
+	cursor: pointer;
+}
+
+.selection-nav .selected-country-title {
+	font-size: 36px;
+	font-weight: 500;
+	color: #333333;
+}
+
+.universities > ul {
+	list-style: none;
+	padding: 0;
+}
+
+.offer-uni-card {
+	display: flex;
+	flex-direction: column;
+	min-height: 131px;
+	min-width: 700px;
+	max-width: 900px;
+	padding: 40px 40px 10px 40px;
+	background-color: #FDFDFD;
+	margin-bottom: 30px;
+	filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.15));
+	align-items: center;
+	cursor: pointer;
+}
+
+.offer-uni-name {
+	margin: 0;
+	margin-bottom: 20px;
+	font-size: 36pt;
+	font-weight: 500;
+	color: #333333;
+}
+
+.offer-uni-tidbits {
+	width: 90%;
+}
+
+.offer-uni-tidbits > ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	color: #AAAAAA;
+	font-weight: 500;
+	font-size: 18px;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.uni-escape-wrapper {
+	position: absolute;
+	top: 8px;
+	left: -32px;
+	opacity: 0;
+	transition: opacity 0s ease-in-out 0.3s;
+	cursor: pointer;
+}
+
+.uni-escape {
+	height: 24px;
+	width: 24px;
+	background-color: #F0F0F0;
+}
+
+.uni-escape:before, .uni-escape:after {
+	content: '';
+	position: absolute;
+	width: 20px;
+	height: 2px;
+	top: 11px;
+	left: 2px;
+	background-color: #333333;
+}
+
+.uni-escape:before {
+	transform: rotate(45deg);
+}
+
+.uni-escape:after {
+	transform: rotate(-45deg);
+}
+
+.appear {
+	opacity: 1;
+	transition: opacity 0s ease-in-out 0.3s; 
+}
+
+/*
+
+=============================== RESPONSIVE =====================================
+
+*/
+
+@media (max-width: 800px) {
+
+	.offer-title {
+		font-size: 36px;
+		margin-top: 40px;
+		max-width: 90%;
+	}
+
+	.offer-subtitle {
+		font-size: 16pt;
+		margin-top: 32px;
+		max-width: 80%;
+	}
+
+	.offer-selectors {
+		margin-top: 20px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.offer-selectors > select {
+		font-size: 21px;
+	}
+
+	.offer-selectors > select:first-of-type {
+		align-self: center;
+	}
+
+	.offer-selectors > select:nth-of-type(2n) {
+		margin-left: 0;
+		margin-top: 20px;
+	}
+
+	.countries {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.countries > ul {
+		margin-top: 40px;
+		max-width: 90%;
+		align-self: center;
+	}
+
+	.offer-country-card {
+		flex-direction: column;
+	}
+
+	.offer-info {
+		padding: 20px;
+	}
+
+	.offer-country-name {
+		font-size: 24pt;
+	}
+
+	.offer-available-unis {
+		font-size: 16px;
+	}
+
+	.offer-country-card > span {
+		height: 0;
+		width: 80%;
+	}
+
+	.selection-nav {
+		margin: 12px 0;
+	}
+
+	.selection-nav .return-button {
+		font-size: 20px;
+		font-weight: 500;
+		color: #AAAAAA;
+		margin-bottom: 12px;
+	}
+
+	.selection-nav .selected-country-title {
+		font-size: 36px;
+		font-weight: 500;
+		color: #333333;
+	}
+
+	.universities {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+	}
+
+	.universities > ul {
+		max-width: 90%;
+	}
+
+	.offer-uni-card {
+		display: flex;
+		flex-direction: column;
+		min-height: 131px;
+		min-width: 250px;
+		max-width: 700px;
+		text-align: center;
+		padding: 24px 24px 10px 24px;
+		margin-bottom: 30px;
+		align-items: center;
+	}
+
+	.offer-uni-name {
+		margin-bottom: 10px;
+		font-size: 20pt;
+	}
+
+	.offer-uni-tidbits {
+		width: 90%;
+	}
+
+	.offer-uni-tidbits > ul {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+	}
+
+	.offer-uni-tidbits > ul > li {
+		margin-bottom: 6px;
+	}
+
+}

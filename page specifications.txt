@@ -1,0 +1,135 @@
+Welcome page
+	Where am I, what can I do here, why should I do it?
+
+	Goal: 
+		Let the visitor know their are on an exchange program information website.
+		That they can find offers and information about the procedure.
+		Because they want to find information (or are required to).
+
+	Content:
+		School logo and name
+		* hover logo to reveal location details and copyrights and shit
+		Background image
+		"Departs a l'etranger"
+		"Centre d'information pour votre semestre a l'etranger"
+		* Notification(s) reminding of important due dates (general or uni specific). Though this data will be on the procedure page too.
+		Our offers
+		Procedure
+		Why do it
+		Contact
+
+Our offers
+	Goal:
+		Provide an intuitive way to find corresponding university offers.
+		Provide relevant information about a given university
+
+		corresponding = "I'm in 3MIC, show me things that only apply to MIC people"
+		relevant = only information for exchange students, and only classes that are similar to INSA
+
+	Content:
+		find university page:
+			selector for year
+			selector for spec
+			map showing countries with offers, when clicked, zoom into country to display universities
+
+		university page:
+			title of uni
+			pictures
+			some relevant data (number of students, location - urban or nah, available places, a contact person, ...)
+			list of courses appropriate to given year and spec (click on course to see details - accordion style)
+			notes from students who have previously done their exchange there
+
+Procedure
+	Goal:
+		Provide a guide for how to successfully go about setting up an exchange semester
+		Provide access to all the necessary documents
+
+	Content:
+		step-by-step recipe for the things that need to be done (with dates inline)
+		important date list
+		document stash
+		* checklist allowing you keep track of where you are (local storage)
+
+Why do it
+	Goal: Pursuade the user that doing an exchange semester is something to look forward to.
+
+	Content:
+		reasons why doing a semester abroad is benefitial to their education/something they might be interested in
+		testimonials from students that really benefited from it
+
+Contact
+	Goal: Provide contact details for all the people the user might need, both setting up the exchange and during.
+
+	Content:
+		* selector for getting the right contact
+		contact info (name, email, phone, reasons for which this person should be contacted) - click on card to contact directly (name, email, subject, message)
+
+===========================================================================================================================
+***************************************************************************************************************************
+===========================================================================================================================
+
+Page d'accueil
+	Où je suis, qu'est-ce que je peut faire ici, pourquoi est-ce que je veux le faire?
+
+	But:
+		Faire savoir a visiteur qu'il est sur le site pour les semestres a l'etranger
+		Qu'il peut trouver des offres et la procedure a suivre
+		(Parce qu'il veut savoir plus sur les semestres a l'etranger)
+
+	Contenu:
+		Logo et nom d'ecole
+		* Flotter au dessus le logo pour reveler les details de l'emplacement et copyright
+		Image de fond
+		"Departs a l'etranger"
+		"Centre d'information pour votre semestre a l'etranger"
+		* Alerte(s) pour les dates limites importantes (generales ou specifiques)
+		Nos offres
+		Procedure
+		Pourquoi
+		Contact
+
+Nos offres
+	But:
+		Donner un moyen intuitif de trouver des offres correspondantes
+		Donner d'informations pertinents sur une université donnée
+
+		correspondantes = "Je suis en 3MIC, montre moi les offres pour les 3MICs"
+		pertinentes = que l'information pour les etudiants d'echange, et que les cours similaire a ceux de l'INSA
+
+	Contenu:
+		Page pour trouver une université:
+			Selecteur d'année
+			Selecteur de specialization
+			Carte qui montres les pays avec d'offres, en cliquant dessus, zoom vers le pays pour montrer les universités
+
+		Page université:
+			Nom d'université
+			Images
+			Données pertinents (nombre d'etudiants, lieu - urbain ou pas, places disponibles, personne de contact, ...)
+			Liste de cours pour l'année et specialization donnée (clique sur un cours pour voir les details - style accordeon)
+			Avis des etudiants qui ont fait leur echange la
+
+Procedure
+	But:
+		Donner un recette de comment reussir a mettre en place son semestre a l'etranger
+		Donner access a tous les documents necessaires
+
+	Contenu:
+		Recette pas-a-pas pour les choses a faire (avec dates limites)
+		Liste complete des dates importantes
+		Depot des documents
+		* Liste recapitulaitve permettant de suivre son demarche (local storage)
+
+Pourquoi
+	But: Pursuader le visiteur que faire un semestre a l'etranger est quelque chose a desirer
+
+	Contenu:
+		Raisons pourquoi faire un semestre a l'etranger est utile pour leur carriere/quelque chose d'interessant
+		Temoignages des etudiant qui en ont beneficié
+
+Contact
+	But: Donner les details de contact de toute personne qui pourrait etre utile, lors de la mise en place et pendant
+
+	Contenu:
+		* Selecteur pour trouver le bon personne a contacter
+		Details de contact (nom, mail, n. de telephone, raisons pour lesquelles il faut les contacter) - cliquer dessus pour envoyer un message directement (avec nom, mail, subjet, message)

@@ -1,0 +1,54 @@
+<body>
+
+	<div class="offer-wrapper">
+
+		<p class="offer-title">Offres proposées par nos universités partenaires</p>
+
+		<p class="offer-subtitle">Commencez par choisir votre année et votre spécialisation</p>
+
+		<div class="offer-selectors">
+			<select id="year-select">
+			    <option value="">-- Votre année --</option>
+			    <option value="3">3</option>
+			    <option value="4">4</option>
+			</select>
+			<select id="spec-select" class="hidden"></select>
+		</div>
+
+		<div class="countries">
+			<ul class="hidden">
+				<template id="countryCard">
+					<li>
+						<div class="offer-country-card">
+							<div class="offer-info">
+								<p class="offer-country-name"></p>
+								<p class="offer-available-unis"></p>
+							</div>
+							<span></span>
+							<p class="offer-country-description"></p>
+						</div>
+					</li>
+				</template>
+			</ul>
+		</div>
+		<div class="selection-nav hidden">
+			<div class="return-button">Retour à tous les pays</div>
+			<div class="selected-country-title"></div>
+		</div>
+		<div class="universities">
+			<ul class="hidden">
+				<template id="uniCard">
+					<li>
+						<div class="offer-uni-card">
+							<p class="offer-uni-name">Uni name</p>
+							<div class="offer-uni-tidbits">
+								<ul></ul>
+							</div>
+						</div>
+					</li>
+				</template>
+			</ul>
+		</div>
+	</div>
+
+</body>
